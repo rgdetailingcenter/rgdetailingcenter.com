@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+.navbar1 {
+	background-color: black;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.col-xs-2 {
+	padding-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.textpåbild {
+	position: absolute;
+ 	bottom: 8px;
+ 	right: 10px;
+}
+
+.btn-lg {
+	margin-left: 50px;
+}
+
+.förklaringstext {
+	width: 300px;
+	font-size: 12px; 
+	color: white;
+}
+.pris{
+	font-size: 15px;
+}
+
+.hovertext {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
+
+.låda {
+	position: relative;
+	width: 100%;
+}
+
+.låda:hover .image {
+	opacity: 0.3;
+}
+.låda:hover .hovertext {
+	opacity: 1;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.textpåbild1 {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+#footerbottom {
+	background-color: black;
+	height: 70px;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+}
+
+#Iconsattop {
+	background-color: black;
+	float: right;
+}
+
+#logo {
+	text-align: center;
+}
+
+.textibotten {
+	display: flex;
+	color: white;
+}
+.text1 {
+	float: left;
+	padding-right: 320px;
+	padding-left: 80px;
+}
+.text2 {
+	padding-left: 50px;
+}
+.kontakttext {
+	margin-right: 0px;
+	color: black;
+	display: block;
+	text-align: center;
+	margin-left: 380px;
+	padding-top: 100px;
+	float: left;
+	font-weight: bold;
+	width: 30%
+}
+.konstruktion {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 100px;
+}
+
+#googlekarta {
+	height: 400px;
+	width: 30%;
+	display: block;
+	float: right;
+	margin-right: 380px;
+	margin-top: 100px;
+}
+
+.kontaktsida {
+	display:block;
+}
+
+.ikonerundertext {
+	display: block;
+	padding-left: 635px;
+	
+}
+
+.FBikon {
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+
+.IGikon {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-left: 40px;
+}
